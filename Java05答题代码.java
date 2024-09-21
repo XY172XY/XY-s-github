@@ -38,7 +38,7 @@ public static void main(String[] args) {
     Person myclass2=new Person("XY",18,1);
     Person myclass3=new Person("XY",18,1);
     System.out.println(Person.count());
-    //最后一直尝试，破防了也没搞懂finalize为什么在类中声明失败，先这样吧，历史遗留问题，en
+    //最后一直尝试，用了@Override还是报重写finalize，应该是我哪里没搞懂吧，先这样吧，历史遗留问题，en
     System.out.println(Person.count());
             }
         }
