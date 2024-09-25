@@ -6,16 +6,6 @@ import java.io.FileReader;
 import java.io.IOException;
 
 public class duqu {
-    package com.ISEKAI.tool;
-
-import com.ISEKAI.test;
-
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
-
-    public class teseone {
         static class EmptyFileException extends Exception {
             public EmptyFileException(String message) {
                 super(message);
@@ -54,5 +44,3 @@ import java.io.IOException;
 
         }
     }
-
-}
