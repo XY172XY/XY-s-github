@@ -29,6 +29,7 @@ public class PersonMain{
 
         public void xuigai(String newname,Person origin) {
             //我想在输入的变量里使用&引用，但不知道java是不需要还是需要其它语法，/(ㄒoㄒ)/~~
+            //学长解答了一下，是的不需要，java里这两个就是引用类
             origin.name = newname;
         }
         public static int count(){
