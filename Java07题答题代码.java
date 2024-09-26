@@ -25,14 +25,14 @@ public class duqu {
                     jishu++;
                 }
                 if (jishu == 0) {
-                    throw new test.EmptyFileException("文件为空");
+                    throw new EmptyFileException("文件为空");
                 }
                 double average = (double) sum / jishu;
                 System.out.println("平均值为：" + average);
 
             } catch (FileNotFoundException e) {
                 System.err.println("未找到文件");
-            } catch (test.EmptyFileException e) {
+            } catch (EmptyFileException e) {
                 System.err.println(e.getMessage());
             } catch (NumberFormatException e) {
                 System.err.println("格式错误");
