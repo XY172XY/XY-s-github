@@ -41,7 +41,7 @@ public class netcode {
                 try {
                     String get;
                     while ((get = reader.readLine()) != null) {
-                        System.out.println("接收到服务器信息" + get);
+                        System.out.println("接收到服务器信息：" + get);
                     }
 
                 } catch (IOException e) {

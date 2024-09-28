@@ -35,7 +35,7 @@ public class fuwuqi {
         private void tellEveryone(String message) {
                for(PrintWriter a:clientWriters){
                    a.println(message);
-                   System.out.println("收到客户端信息"+message+"已转发给所有用户");
+                   System.out.println("收到客户端信息："+message+"，已转发给所有用户");
                    a.flush();//确保马上被输出到client的输出台，属于优化了
                }
             //将消息打印出来
